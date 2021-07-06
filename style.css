@@ -1,14 +1,35 @@
 body{
     font-family: 'Bitter', serif;
-    font-size: 30px;
+    font-size: 24px;
     
 }
 section{
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#one{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+span{
+    color: sandybrown;
 }
 .half-width{
     width: 50%;
+    padding-left: 40px;
+
+
 }
 .half-width img{
     width: 90%
+    
+}
+.order-button{
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
+    background-image: linear-gradient( rgb(201, 82, 82), #ff0000);
+    padding: 10px 35px;
+    border-radius: 20px;
 }
